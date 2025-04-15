@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="main.css">
+    <title>ストップウォッチ</title>
+  </head>
+
+  <body>
+    <main>
+        <h3>STOPWATCH</h3>
+        <div class="inner-rectangle">
+          <div class="monitor">
+            <!--モニター画面内容はここに記述-->
+            <p id="monitor-content">0:0:0:0</p>
+          </div>
+          <div class="three-buttons-frame">
+            <!--ボタン内容はここに記述-->
+            <button type="button" class="three-buttons" id="start-button">START</button>
+            <div class="two-buttons-frame">
+              <button type="button" class="three-buttons" id="stop-button" disabled>STOP</button>
+              <button type="reset"  class="three-buttons" id="reset-button" disabled>RESET</button>
+            </div>
+          </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
+
